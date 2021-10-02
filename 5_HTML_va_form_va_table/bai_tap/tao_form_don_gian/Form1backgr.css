@@ -1,0 +1,32 @@
+.form1backgr {
+
+    background-color: white;
+    width: 1500;
+    height: 600;
+    border: 15px solid aqua;
+
+}
+.sothich {
+    padding: 10px;
+
+    background-color: darkorange;
+
+    color: white;
+    text-align: center;
+    margin-right: clamp(50px, 25vw, 50px);
+    margin-left: clamp(50px, 25vw, 50px);
+}
+.hovaten {
+    color: blue;
+    text-indent:52px;
+}
+.button {
+    margin-left: clamp(50px, 25vw, 50px);
+}
+.nentrang {
+    margin-left:clamp(50px, 25vw, 50px);
+    margin-right: clamp(50px, 25vw, 50px);
+    margin-bottom: clamp(50px, 25vw, 50px);
+    background-color: white;
+    padding: 12px
+}
