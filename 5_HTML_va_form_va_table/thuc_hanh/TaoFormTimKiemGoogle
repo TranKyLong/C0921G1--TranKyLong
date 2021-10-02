@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="GET" action="https://www.google.com/webhp?hl=vi&sa=X&ved=0ahUKEwjp7a_Qy6jzAhWT-2EKHR8wA-YQPAgI" target="_blank">
+    <input type="text" name="q"/>
+    <input type="submit" value="Tìm kiếm"/>
+</form>
+<p> Nếu muốn tìm kiếm bằng Bing thì thay thế link từ google sang link Bing</p>
+</body>
+</html>
