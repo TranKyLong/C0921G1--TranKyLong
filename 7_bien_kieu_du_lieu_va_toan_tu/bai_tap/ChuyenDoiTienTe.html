@@ -4,31 +4,44 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
-
 <body>
-<form action="ChuyenDoiTienTe.html" method="get">
-<span>Amount <input type="text" id="giatri"></span>
-    <br> <br>
-  <span>   From Currency </span>  <select name="vietnamdong" id="VND">
 
-        <option value="VietNam">VietNam</option>
-    </select>
-    <br> <br>
-    <span>   To Currency </span>  <select name="USD" id="usd">
+<input type="text" id="nhapvao">
 
-    <option value="USD">USD</option>
-</select> <br> <br>
+<select id="luachon1">
+    <option value="v">VietNam</option>
+    <option value="u">USD</option>
 
-    <button onclick="chuyentien()" value="chuyendoi"> Chuyển đổi</button>
+</select>
 
-<p id="result"> result </p>
-</form>
+<select id="luachon2">
+    <option value="v">VietNam</option>
+    <option value="u">USD</option>
+</select>
+
+<button onclick="chuyendoi()"> Convert</button>
+
 <script>
-    function chuyentien(){
-        let vnd = parseInt(document.getElementById("giatri").value);
+function chuyendoi() {
 
-        document.getElementById("result").innerHTML = (vnd*0.000043);
+    let select1 = document.getElementById("luachon1").value;
+    let select2 = document.getElementById("luachon2").value;
+    let giatri = document.getElementById("nhapvao").value;
+
+    if (select1 === select2) {
+        alert(giatri)
     }
+    if (select1=="v" && select2=="u")
+        alert(giatri/24000)
+
+    if (select1=="u" && select2=="v") {
+        alert(giatri*24000)
+    }
+
+
+
+    }
+
 
 </script>
 </body>
