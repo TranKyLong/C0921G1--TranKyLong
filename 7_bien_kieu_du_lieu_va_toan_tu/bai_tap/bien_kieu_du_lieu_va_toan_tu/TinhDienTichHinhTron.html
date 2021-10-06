@@ -12,15 +12,15 @@
  <br>  <br>
 
 
- <button onclick="tinhdientich()" value=" Tính Diện Tích " > TÍNH DIỆN TÍCH </button>
+ <button onclick="tinhDienTich()" value=" Tính Diện Tích " > TÍNH DIỆN TÍCH </button>
 
  <p id="dientich"> diện tích là  </p>
         <script>
-function tinhdientich(){
-    let  bankinh =  parseInt( document.getElementById("bankinh").value);
+function tinhDienTich(){
+    let  banKinh =  parseInt( document.getElementById("bankinh").value);
     let sopi = Math.PI
 
-    document.getElementById("dientich").innerHTML ="đáp án "+ (bankinh * bankinh * sopi);
+    document.getElementById("dientich").innerHTML ="đáp án "+ (banKinh * banKinh * sopi);
 }
         </script>
 
