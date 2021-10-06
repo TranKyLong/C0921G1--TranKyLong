@@ -19,23 +19,23 @@
     <option value="u">USD</option>
 </select>
 
-<button onclick="chuyendoi()"> Convert</button>
+<button onclick="chuyenDoi()"> Convert</button>
 
 <script>
-function chuyendoi() {
+function chuyenDoi() {
 
     let select1 = document.getElementById("luachon1").value;
     let select2 = document.getElementById("luachon2").value;
-    let giatri = document.getElementById("nhapvao").value;
+    let giaTri = document.getElementById("nhapvao").value;
 
     if (select1 === select2) {
-        alert(giatri)
+        alert(giaTri)
     }
     if (select1=="v" && select2=="u")
-        alert(giatri/24000)
+        alert(giaTri/24000)
 
     if (select1=="u" && select2=="v") {
-        alert(giatri*24000)
+        alert(giaTri*24000)
     }
 
 

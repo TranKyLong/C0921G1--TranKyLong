@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h3> Caculator </h3>
+
+ <input type="text" id="input1">
+<span id="kihieu">    &nbsp    </span>
+
+<input type="text" id="input2"> =
+<span id="ketqua12">   &nbsp    </span>
+
+
+
+<br>
+<br>
+
+<button value="cong" id="cong"  onclick="lamPhepCong()"> + </button>
+<button value="tru" id="tru"  onclick="lamPhepTru()"> - </button>
+<button value="nhan" id="nhan"  onclick="lamPhepNhan()" > * </button>
+<button value="chia"  id="chia" onclick="lamPhepChia()" > / </button>
+
+<script>
+
+    function lamPhepCong() {
+        let soDau = parseInt(document.getElementById("input1").value);
+        let soHai = parseInt(document.getElementById("input2").value);
+                document.getElementById("kihieu").innerHTML = "+"
+        document.getElementById("ketqua12").innerHTML = soDau + soHai
+
+
+
+    }
+    function lamPhepTru() {
+        let soBiTru = parseInt(document.getElementById("input1").value);
+        let soTru = parseInt(document.getElementById("input2").value);
+
+        document.getElementById("kihieu").innerHTML = "-"
+        document.getElementById("ketqua12").innerHTML = soBiTru - soTru
+
+    }
+
+    function lamPhepNhan() {
+        let thuaSo1 = parseInt(document.getElementById("input1").value);
+        let thuaSo2 = parseInt(document.getElementById("input2").value);
+
+        document.getElementById("kihieu").innerHTML = "*"
+        document.getElementById("ketqua12").innerHTML = thuaSo1 * thuaSo2
+
+
+    }
+    function lamPhepChia() {
+        let soBiChia = parseInt(document.getElementById("input1").value);
+        let soChia = parseInt(document.getElementById("input2").value);
+
+        document.getElementById("kihieu").innerHTML = "/"
+        document.getElementById("ketqua12").innerHTML = soBiChia / soChia
+
+
+    }
+
+
+
+
+</script>
+</body>
+</html>
