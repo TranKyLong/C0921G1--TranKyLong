@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+</head>
+<body>
+<!-- <form action=""> thẻ form bỏ, vì cơ bản mình ko cần gửi dữ liệu đi đâu hết-->
+
+<input id="a" type="text" placeholder="number">
+
+
+<select name="" id="pheptinh">
+    <option value="+">+</option>
+    <option value="-">-</option>
+    <option value="*">*</option>
+    <option value="/">/</option>
+</select>
+<input id="b" type="text" placeholder="number">
+<p>
+    <button onclick="tinh()">tính</button>
+    <script>
+        // bỏ dấu chấm phẩy vô đỡ sai, parsentInt là ép kiểu số nguyên, parseFloat thì có cả thập phân. để cái parsent ngay chỗ khai báo để ép kiểu luôn
+        function tinh() {
+            let a = parseFloat(document.getElementById('a').value);
+            let b = parseFloat(document.getElementById('b').value);
+            let pheptinh = document.getElementById('pheptinh').value;
+            // a=parseInt(a)
+            // b=parseInt(b)
+            // chỗ pheptinh khai báo id thì cần 3 dấu =
+
+
+            if (pheptinh === '+') {
+                alert(a + b)
+            }
+            if (pheptinh === '-') {
+                alert(a - b)
+            }
+            if (pheptinh === '*') {
+                (alert(a * b))
+            }
+            if (pheptinh === '/') {
+                alert(a / b)
+            }
+        }
+    </script>
+    <!--</form>  CODE XONG BẤM CTRL + ALT + L NÓ CĂN LỀ LẠI, BAO ĐẸP-->
+</body>
+</html>

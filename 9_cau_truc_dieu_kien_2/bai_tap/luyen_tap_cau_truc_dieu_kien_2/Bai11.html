@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<script>
+
+    let thuNhap = parseFloat(prompt(" Nhập số thu nhập cá nhân hằng tháng (triệu VND) ", " " ))
+
+
+    if (thuNhap <= 5000000) {
+        alert(" số thuế phải đóng" + thuNhap * 0.05)
+    } else if (thuNhap <= 20000000) {
+        alert("  số thuế phải đóng" + thuNhap * 0.2)
+    } else if (thuNhap <=35000000){ alert(  " số thuế phải đóng" + thuNhap * 0.3)
+
+    }
+</script>
+</body>
+</html>

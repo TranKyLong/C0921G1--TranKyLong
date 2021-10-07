@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<script>
+
+    let canhA = parseInt(prompt(" Nhập độ dài cạnh a", " "))
+    let canhB = parseInt(prompt(" Nhập độ dài cạnh b", " "))
+    let canhC = parseInt(prompt(" Nhập độ dài cạnh c", " "))
+
+
+    if ( canhA > 0 && canhB > 0 && canhC >0 && canhA + canhB > canhC && canhB + canhC > canhA && canhA + canhC > canhB){
+        alert("a,b,c là 3 cạnh của tam giác")
+    } else { alert( " a,b,c không phải là 3 cạnh của tam giác " )}
+
+
+</script>
+</body>
+</html>
