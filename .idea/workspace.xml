@@ -20,6 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbba1911-0ee4-427e-bbd6-7a7e6980f5b2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/8_cau_truc_dieu_kien_1/thuc_hanh/LuyenTapCauTrucIf..Else..If.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8_cau_truc_dieu_kien_1/thuc_hanh/luyen_tap_toan_tu_ba_ngoi/Bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8_cau_truc_dieu_kien_1/thuc_hanh/luyen_tap_toan_tu_ba_ngoi/Bai2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +55,11 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CodeGym\hoc\Module1\9_cau_truc_dieu_kien_2\bai_tap\LuyenTapCauTrucDieuKien1" />
+    </key>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -68,6 +76,9 @@
       <workItem from="1633150924123" duration="10118000" />
       <workItem from="1633362101225" duration="631000" />
       <workItem from="1633405202425" duration="2905000" />
+      <workItem from="1633508094821" duration="5357000" />
+      <workItem from="1633513919041" duration="2687000" />
+      <workItem from="1633528149893" duration="7086000" />
     </task>
     <servers />
   </component>
@@ -87,9 +98,17 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="650" y="168" key="run.anything.popup" timestamp="1633143504724">
+    <state x="447" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1633537545147">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="650" y="168" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1633143504724" />
+    <state x="447" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1633537545147" />
+    <state x="650" y="167" key="run.anything.popup" timestamp="1633537191385">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="650" y="167" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1633537191385" />
+    <state x="634" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1633529386847">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="634" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1633529386847" />
   </component>
 </project>

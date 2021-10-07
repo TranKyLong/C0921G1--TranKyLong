@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+
+    let kiemTra = parseInt(prompt(" nhập số điểm kiểm tra", " "))
+    let giuaKy = parseInt(prompt(" nhập số điểm giữa kỳ", " "))
+    let cuoiKy = parseInt(prompt(" nhập số điểm cuối kỳ", " "))
+    let diemTrungBinh = (kiemTra + giuaKy + cuoiKy) / 3
+
+    if (diemTrungBinh >= 8) {
+        alert(" học sinh giỏi ")
+    } else if (diemTrungBinh >= 6) {
+        alert("học sinh khá ")
+    } else if (diemTrungBinh > 4) {
+        alert(" học sinh trung bình")
+    } else if (diemTrungBinh <= 4) {
+        alert(" học sinh kém")
+    } else if (diemTrungBinh <= 3) {
+        alert("học sinh yếu")
+    }
+
+
+</script>
+</body>
+</html>
