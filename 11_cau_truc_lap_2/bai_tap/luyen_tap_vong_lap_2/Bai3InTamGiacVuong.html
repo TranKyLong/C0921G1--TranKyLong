@@ -10,8 +10,8 @@
 
 <script>
 
-    let n = 10
-    for (let i = 0; i <= n; i++) {
+    document.write(" -----------------tam giác 1---------------------- " + '</br>')
+    for (let i = 0; i <= 5; i++) {
         for (let j = 0; j <= i; j++) {
             document.write("*")
 
@@ -19,6 +19,34 @@
 
         document.write("</br>")
     }
+    document.write(" ----------------tam giác 2------------------------ " + '</br>')
+
+
+    for (let h = 1; h <= 10; h++) {
+        for (let j = 1; j <= (10 - h); j++) {
+            document.write("*");
+        }
+        document.write("<br>");
+    }
+
+
+    document.write(" ---------------tam giác 3------------------------- " + '</br>')
+
+
+    for (let h = 1; h <= 10; h++) {
+        for (let j = 1; j <= (10 - h); j++) {
+            document.write("-");
+        }
+        document.write("<br>");
+
+    }  for (let j = 0; j < h; j++) {
+        document.write("*")
+
+    }
+
+    document.write("</br>")
+
+
 
 
 </script>
