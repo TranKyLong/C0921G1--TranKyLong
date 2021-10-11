@@ -38,7 +38,7 @@
         <td><input type="button" value="8" onclick="nhap(this.value)"></td>
         <td><input type="button" value="9" onclick="nhap(this.value)"></td>
         <td>
-            <button type="button" value="*" onclick="nhap(this.value)">x</button>
+            <button type="button" value="*" onclick="nhap(this.value)"> x </button>
         </td>
     </tr>
     <tr>
@@ -56,9 +56,9 @@
     }
 
     function tinhKetQua() {
-        let bieuThuc = document.getElementById("window").value;
-        // hàm eval() đùng để thực hiện tính 1 giá trị 1 biểu thức
-        document.getElementById("window").value = eval(bieuThuc);
+        let tinhtoan = document.getElementById("window").value;
+
+        document.getElementById("window").value = eval(tinhtoan);
     }
 
     function xoa() {

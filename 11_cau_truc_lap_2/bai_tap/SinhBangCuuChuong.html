@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> BẢNG CỬU CHƯƠNG</title>
+</head>
+<body>
+<h3> BẢNG CỬU CHƯƠNG </h3>
+<p id="hienthi"></p>
+
+<script>
+
+    let bang = '<table border="20" >'
+    for (let j = 1; j <= 9; j++) {
+        bang += '<tr>'
+        for (let n = 2; n <= 9; n++) {
+            bang += '<td>' + n + "x" + j + "= " + (n * j) + ' </td>'
+        }
+        bang += '</tr>'
+    }
+    bang += '</table>'
+    document.getElementById("hienthi").innerHTML = bang
+
+</script>
+</body>
+</html>
+
+
