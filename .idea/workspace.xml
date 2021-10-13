@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbba1911-0ee4-427e-bbd6-7a7e6980f5b2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/13_mang_2/bai_tap/SuDungCacHamCoSanCuaMang.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_cau_truc_lap_2/bai_tap/luyen_tap_vong_lap_2/Bai3InTamGiacVuong.html" beforeDir="false" afterPath="$PROJECT_DIR$/11_cau_truc_lap_2/bai_tap/luyen_tap_vong_lap_2/Bai3InTamGiacVuong.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_cau_truc_lap_2/bai_tap/luyen_tap_vong_lap_2/tamgiac.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +32,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="HTML4 File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -57,11 +57,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CodeGym\hoc\Module1\13_mang_2" />
+      <recent name="D:\CodeGym\hoc\Module1\12_mang_1\thuc_hanh" />
       <recent name="D:\CodeGym\hoc\Module1\9_cau_truc_dieu_kien_2\bai_tap\luyen_tap_cau_truc_dieu_kien_2" />
       <recent name="D:\CodeGym\hoc\Module1\10_cau_truc_lap_1\bai_tap\luyen_tap_vong_lap_2" />
       <recent name="D:\CodeGym\hoc\Module1\10_cau_truc_lap_1\bai_tap\luyen_tap_vong_lap_1" />
-      <recent name="D:\CodeGym\hoc\Module1\10_cau_truc_lap_1\bai_tap" />
-      <recent name="D:\CodeGym\hoc\Module1\10_cau_truc_lap_1\bai_tap\bang_cuu_chuong" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.SoNguyenTo.html">
@@ -118,7 +118,13 @@
       <workItem from="1633852098969" duration="5453000" />
       <workItem from="1633915162402" duration="20350000" />
       <workItem from="1633957139812" duration="3659000" />
-      <workItem from="1633961288773" duration="6829000" />
+      <workItem from="1633961288773" duration="6869000" />
+      <workItem from="1634001788305" duration="5186000" />
+      <workItem from="1634020973633" duration="8402000" />
+      <workItem from="1634047502657" duration="5045000" />
+      <workItem from="1634053037833" duration="2979000" />
+      <workItem from="1634087206091" duration="7379000" />
+      <workItem from="1634107253173" duration="10233000" />
     </task>
     <servers />
   </component>
@@ -226,13 +232,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="526" y="16" width="1012" height="803" maximized="true" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1633706889051" />
-    <state x="650" y="167" key="run.anything.popup" timestamp="1633668133471">
+    <state x="650" y="167" key="run.anything.popup" timestamp="1634114181032">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="650" y="167" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1633668133471" />
-    <state x="634" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1633771731392">
+    <state x="650" y="167" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1634114181032" />
+    <state x="634" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1634013920546">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="634" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1633771731392" />
+    <state x="634" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1634013920546" />
   </component>
 </project>
