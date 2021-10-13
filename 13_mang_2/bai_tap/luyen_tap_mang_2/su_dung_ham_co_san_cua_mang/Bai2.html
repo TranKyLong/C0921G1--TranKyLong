@@ -10,16 +10,6 @@
 
 <script>
 
-    document.write(" BÀI 1")
-
-    let color = ["red", 'green', 'blue', 'black']
-    document.write("<br>")
-
-    color.toString();
-    document.write(color)
-
-    document.write("<br>")
-
     document.write("BÀI 2"+ "<br>")
 
     let num = prompt("nhập dãy số, trong đó có ít nhất 2 số chẵn liền kề")
@@ -29,13 +19,12 @@
     for (let i = 1; i < array.length ; i++) {
 
         if ( array[i-1] % 2 === 0 && array[i] %2 ===0 ) {
-           ketQua.push( '-' , array[i])
+            ketQua.push( '-' , array[i])
         }
         else  ketQua.push( ' ' , array[i])
     }
 
-document.write (ketQua.join())
-
+    document.write (ketQua.join())
 
 </script>
 </html>
