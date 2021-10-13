@@ -10,10 +10,17 @@
 
 <script>
 
-let chuoi = [ 'một  hai ba bốn năm sáu bảy'  ]
-for (let i = 0 ; i < chuoi.length ; i++) {
-    
-}
 
+    let mang = [1, 57, ' hai', 5, ' ba', ' bốn', 6, 9,]
+    let dem = 0
+    for (let i = 0; i < mang.length; i++) {
+        if (mang[i] % 2 === 0 || mang[i] % 2 === 1) {
+            document.write(' ')
+        }
+       else {
+           dem ++
+           document.write(' từ trong mảng là: ' + mang[i] + ' , ' + "<br> ")}
+    }
+    document.write(' số từ trong mảng là ' + dem )
 </script>
 </html>
