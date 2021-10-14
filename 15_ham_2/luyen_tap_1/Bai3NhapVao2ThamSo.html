@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+
+    let ketQua = soSanh()
+
+    function soSanh() {
+
+        let a = parseFloat(prompt(' nhập số đầu'))
+        let b = parseFloat(prompt(' nhập số sau'))
+        let traVe = " "
+        if (a > b) {
+            traVe = ' số đầu lớn hơn số sau'
+            return traVe
+        } else if (a === b || a < b) {
+            traVe = ' tổng hai số là' + (a + b)
+            return traVe
+        }
+    }
+
+    alert(ketQua)
+
+</script>
+</body>
+
+
+</html>
