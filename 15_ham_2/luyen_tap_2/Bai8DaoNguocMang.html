@@ -9,24 +9,23 @@
 </body>
 
 <script>
-
-    let array = [10, 20, 30, 40, 50, 60, 70, 80, 90]
+    let mang = [10, 20, 30, 40, 50, 60, 70, 80, 90]
+    document.write('mảng cho trước là ' + mang + '<br>' + '<br>' )
 
     function daoNguoc() {
-        let list = array
-        let begin = list[0]
-        let end = list.length -1
-        
+
+        let begin = 0;
+        let end = mang.length - 1;
         while (begin < end) {
-           let b = list[begin]
-            list[begin] = list [end]
-            list[end] =b
+            let b = mang[begin];
+            mang[begin] = mang[end];
+            mang[end] = b;
             begin++;
             end--;
         }
-        return list
+        return mang
     }
 
-    alert(daoNguoc())
+    document.write('mảng sau khi đảo ngược là' + daoNguoc());
 </script>
 </html>
