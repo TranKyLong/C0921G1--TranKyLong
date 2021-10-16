@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+
+<script>
+    let a = parseInt(prompt(' nhập số đầu'))
+    let b = parseInt(prompt(' nhập số sau'))
+    document.write('vị trí hai số đã nhập là ' + a + ',' + b + '<br>' + '<br>')
+    function swap(a, b) {
+        let c = a
+        a = b
+        b = c
+        return a + ',' + b
+    }
+    document.write('vị trí sau khi thay đổi là ' + swap(a, b))
+</script>
+</html>

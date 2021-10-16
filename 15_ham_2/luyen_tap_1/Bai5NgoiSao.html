@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    let nhap = prompt(' hãy nhập tên ngôi sao')
+    let sao = ['Polaris', 'Aldebaran', 'Deneb', 'Vega', 'Altair', 'Dubhe', 'Regulus']
+    let chomSao = ['Ursa Minor', 'Tarurus', 'Cygnus', 'Lyra', 'Aquila', 'Ursa Major', 'Leo']
+    let place = sao.indexOf(nhap)
+
+    if (place !== -1) {
+        function demSao() {
+            return viTri = chomSao[place]
+        }
+        alert(demSao())
+    } else {
+        alert(" sao bạn nhập không có")
+    }
+
+
+</script>
+
+</body>
+
+
+</html>

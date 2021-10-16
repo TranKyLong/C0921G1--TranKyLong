@@ -14,8 +14,11 @@
     let tiengViet = ['tối', 'máy tính', ' mất kết nối']
     let trans = tiengANh.indexOf(nhap)
     let ketQua = tiengViet[trans]
-    alert(ketQua)
 
-
+    if (tiengANh.indexOf(nhap) === -1) {
+        alert(" từ bạn nhập không có")
+    } else {
+        alert(ketQua)
+    }
 </script>
 </html>

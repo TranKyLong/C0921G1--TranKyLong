@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+
+<script>
+
+    // Bài 5: Viết hàm nhận vào 3 số nguyên bất kỳ, trả về số nguyên có giá trị nhỏ nhất.
+    let list = []
+    for (let i = 0; i < 3; i++) {
+        let nhap = parseInt(prompt('nhập 3 só cần so sánh'))
+        list.push(nhap)
+    }
+
+    function find() {
+        let max = list[0]
+        for (let j = 1; j < list.length; j++) {
+            if (list[j] > list [0]) {
+                max = list[j]
+            }
+        }
+        return max
+    }
+
+    alert('số lớn nhất trong 3 số vừa nhập là ' + find())
+
+</script>
+</html>

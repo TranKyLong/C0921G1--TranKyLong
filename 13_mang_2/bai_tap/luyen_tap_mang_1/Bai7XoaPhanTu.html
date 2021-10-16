@@ -14,8 +14,8 @@
     let nhap = parseFloat(prompt(' hãy nhập số cần kiểm tra'))
     let dem = list.indexOf(nhap)
     document.write("mảng trước khi xóa là" + list + '<br>')
-    if (dem != -1) {
-        list.splice(list.indexOf(nhap), 1);
+    if (dem !== -1) {
+        list.splice(dem, 1);
         alert('số bạn nhập nằm trong mảng, nó sẽ bị xóa=(( ')
 
         document.write("mảng sau khi xóa là  " + list)

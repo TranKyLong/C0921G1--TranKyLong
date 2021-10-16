@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+
+<script>
+
+    // số nguyên dương là tập hợp những số chia hết cho 1 và lớn hơn 0
+    let nhap = parseInt(prompt(' hãy nhập số '))
+    let ketQua = test()
+
+    function test() {
+        let flag = true
+        if (nhap % 1 === 0 && nhap > 0) {
+            return flag
+        } else {
+            flag = false
+            return flag
+        }
+
+    }
+
+    alert(ketQua)
+</script>
+</html>
