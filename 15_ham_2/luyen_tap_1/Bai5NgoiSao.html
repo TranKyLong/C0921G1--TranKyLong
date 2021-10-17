@@ -10,18 +10,21 @@
     let nhap = prompt(' hãy nhập tên ngôi sao')
     let sao = ['Polaris', 'Aldebaran', 'Deneb', 'Vega', 'Altair', 'Dubhe', 'Regulus']
     let chomSao = ['Ursa Minor', 'Tarurus', 'Cygnus', 'Lyra', 'Aquila', 'Ursa Major', 'Leo']
-    let place = sao.indexOf(nhap)
 
-    if (place !== -1) {
-        function demSao() {
-            return viTri = chomSao[place]
+    function find() {
+        let count = 0
+        for (let i = 0; i < sao.length; i++) {
+            if (sao[i] == nhap) {
+                count++;
+                return 'ngôi sao vừa nhập nằm ở chòm ' + chomSao[i]
+            }
         }
-        alert(demSao())
-    } else {
-        alert(" sao bạn nhập không có")
+        if (count === 0) {
+            return 'sao bạn nhập không có trong danh sách'
+        }
     }
 
-
+    document.write(find())
 </script>
 
 </body>

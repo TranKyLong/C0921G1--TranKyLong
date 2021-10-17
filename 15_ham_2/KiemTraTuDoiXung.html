@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tenet</title>
+</head>
+<body>
+
+</body>
+
+<script>
+
+
+    let khacNhap = prompt('hãy nhập từ cần kiểm tra')
+    let khacXuat = khacNhap.split("")
+    let begin = 0
+    let end = khacXuat.length - 1
+    function isPalindrome() {
+
+        for (let i = 0; i < khacXuat.length / 2; i++) {
+            if (khacXuat[begin] !== khacXuat[end]) {
+                return flag = false
+            } else {
+                begin++
+                end--
+            }
+        }
+        return flag = true
+    }
+
+    alert(isPalindrome())
+
+</script>
+</html>

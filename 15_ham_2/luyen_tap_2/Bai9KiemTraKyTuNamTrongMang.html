@@ -4,30 +4,31 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
-<body>
+<body>'
 
 </body>
 <script>
-    let nhap = toString(prompt('hãy nhập ký tự cần kiểm tra'))
-    let list = [a, b, a]
 
-    // function test() {
-    //     let count = 0
-    //     let flag = true
-    //     for (let i = 0; i < list.length; i++) {
-    //         if (list[i] == nhap) {
-    //             count++
-    //         }
-    //     }
-    //
-    //     return count
-    // }
+    let list = ['q', 'q', 'w', 'w', 'w', 'e', 'e', 'e', 'e', 'e', 't', 't', 't', 'y', 'y', 'y', 'u', 'u', 'i']
+    let nhap = prompt('hãy nhập một ký tự')
 
-    alert(test())
-    // if (test() !== -1) {
-    //     document.write('ký tự vừa nhập xuất hiện ' + test() + 'lần trong mảng')
-    // } else {
-    //     document.write(test())
-    // }
+    function find() {
+        let count = 0
+        for (let i = 0; i < list.length; i++) {
+            if (list[i] == nhap) {
+                count++
+            }
+        }
+        if (count > 0) {
+            return count
+        } else {
+            return -1
+        }
+    }
+
+    if (find() > 0) { document.write("ký tự vừa nhập có trong mảng, đã xuất hiện " + find() + ' lần ')}
+    else {document.write( -1) }
+
+
 </script>
 </html>
