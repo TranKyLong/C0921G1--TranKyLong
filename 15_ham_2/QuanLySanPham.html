@@ -3,28 +3,33 @@
 
 <style>
 
-table { width: 200px;
-text-align: center}
+    table {
+        width: 200px;
+        text-align: center
+    }
 
-    th { background: #9099a0;
+    th {
+        background: #9099a0;
         font-size: 15px;
 
     }
 
-    td {background:white;
-    color: blue}
-
-    .delbutton { border-radius: 1px;
-        border: 1px;
-        background-color:orangered ;
+    td {
+        background: white;
+        color: blue
     }
-.fixbutton { border-radius: 1px;
-    border: 1px;
-   background-color:dodgerblue ;
-}
 
+    .delbutton {
+        border-radius: 1px;
+        border: 1px;
+        background-color: orangered;
+    }
 
-
+    .fixbutton {
+        border-radius: 1px;
+        border: 1px;
+        background-color: dodgerblue;
+    }
 
 
 </style>
@@ -86,8 +91,8 @@ text-align: center}
 
     function xoaSanPham(index) {
         let chose = confirm('xác nhận xóa sản phẩm ' + product[index]);
-        if (chose ) {
-            product.splice(index,1)
+        if (chose) {
+            product.splice(index, 1)
         }
         display();
 
