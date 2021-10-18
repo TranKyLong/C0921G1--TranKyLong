@@ -7,24 +7,24 @@
 <body>
 <script>
 
-    let nhap = prompt(' hãy nhập tên ngôi sao')
-    let sao = ['Polaris', 'Aldebaran', 'Deneb', 'Vega', 'Altair', 'Dubhe', 'Regulus']
-    let chomSao = ['Ursa Minor', 'Tarurus', 'Cygnus', 'Lyra', 'Aquila', 'Ursa Major', 'Leo']
 
-    function find() {
-        let count = 0
+    function find(nhap) {
+
+
+        let sao = ['Polaris', 'Aldebaran', 'Deneb', 'Vega', 'Altair', 'Dubhe', 'Regulus']
+        let chomSao = ['Ursa Minor', 'Tarurus', 'Cygnus', 'Lyra', 'Aquila', 'Ursa Major', 'Leo']
+
         for (let i = 0; i < sao.length; i++) {
-            if (sao[i] == nhap) {
-                count++;
-                return 'ngôi sao vừa nhập nằm ở chòm ' + chomSao[i]
+            if (sao[i] === nhap) {
+
+                return 'ngôi sao vừa nhập nằm ở chòm ' + chomSao[i];
             }
         }
-        if (count === 0) {
-            return 'sao bạn nhập không có trong danh sách'
-        }
+        return "ngôi sao bạn vừa nhập không Có "
     }
-
-    document.write(find())
+    let input = prompt('hãy nhập ngôi sao')
+    let nhap = find(input)
+    document.write(nhap)
 </script>
 
 </body>

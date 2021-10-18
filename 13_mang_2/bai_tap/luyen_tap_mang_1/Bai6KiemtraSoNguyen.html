@@ -10,17 +10,21 @@
 
 <script>
 
-    let list = [-2, 2.2, 5.6, 3.5, -24, -78, 1, 3, 5, 6]
-
     let nhap = parseFloat(prompt(' hãy nhập giá trị V cần kiểm tra'))
+    let list = [-2, 2.2, 5.6, 3.5, -24, -78, 1, 3, 5, 6]
+    let flag = true
+    for (let i = 0; i < list.length; i++) {
 
-    let dem = list.indexOf(nhap)
-
-    if (dem != -1) {
-        alert('giá trị V bạn nhập nằm trong mảng =((')
-    } else {
-        alert(" giá trị  V bạn nhập không có trong mảng =)) ")
+        if (list[i] != nhap) {
+            flag = false
+        } else {
+            alert('giá trị V có trong mảng');
+            break
+        }
     }
 
+    if (flag == false) {
+        alert('giá trị V không có trong mảng')
+    }
 </script>
 </html>

@@ -7,19 +7,16 @@
 <body>
 
 <script>
-    let doiSo = 1
+    inRa()
 
-    function ketQUa() {
-        let total = 0;
-        let i = doiSo;
-        i++
-        total += i;
-
-        return total;
+    function ketQUa(a) {
+        a++
+        return a
     }
-    alert(ketQUa())
-
-
+    function inRa() {
+        let input = parseInt(prompt())
+        alert(ketQUa(input))
+    }
 </script>
 </body>
 </html>
