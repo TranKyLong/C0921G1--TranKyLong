@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+
+<script>
+
+
+    class NhietDo {
+        constructor(c) {
+            this.c = c;
+        }
+
+        getC() {
+            return this.c
+        }
+
+        setC(c) {
+            return this.c = c
+        }
+
+        getK(c) {
+            return c + 273.15
+        }
+
+        getF(c) {
+            return c * 1.8 + 32
+        }
+    }
+
+
+    let Temp = new NhietDo(-273)
+    let c = Temp.getC()
+    let doK = Temp.getK(c)
+    let doF = Temp.getF(c)
+
+    document.write(c + ' độ C' + ' = ' + doK + ' độ K ' + '<br>')
+    document.write(c + ' độ C' + ' = ' + doF + ' độ F ' + '<br>')
+
+
+
+    let Heat = new NhietDo()
+    Heat.setC(25)
+    c = Heat.getC()
+    doK = Heat.getK(c)
+    doF = Heat.getF(c)
+
+    document.write(c + ' độ C' + ' = ' + doK + ' độ K ' + '<br>')
+    document.write(c + ' độ C' + ' = ' + doF + ' độ F ' + '<br>')
+</script>
+</html>
