@@ -21,8 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bbba1911-0ee4-427e-bbd6-7a7e6980f5b2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15_ham_2/KiemTraSoNguyenTo.html" beforeDir="false" afterPath="$PROJECT_DIR$/15_ham_2/KiemTraSoNguyenTo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_lap_trinh_huong_doi_tuong/thuc_hanh/MoPhongDenPin.html" beforeDir="false" afterPath="$PROJECT_DIR$/16_lap_trinh_huong_doi_tuong/thuc_hanh/MoPhongDenPin.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,11 +60,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CodeGym\hoc\Module1\casestudy\mang_va_loop" />
+      <recent name="D:\CodeGym\hoc\Module1\casestudy\if_swich_case" />
       <recent name="D:\CodeGym\hoc\Module1\17_lap_trinh_huong_doi_tuong\bai_tap" />
       <recent name="D:\CodeGym\hoc\Module1\13_mang_2" />
       <recent name="D:\CodeGym\hoc\Module1\12_mang_1\thuc_hanh" />
-      <recent name="D:\CodeGym\hoc\Module1\9_cau_truc_dieu_kien_2\bai_tap\luyen_tap_cau_truc_dieu_kien_2" />
-      <recent name="D:\CodeGym\hoc\Module1\10_cau_truc_lap_1\bai_tap\luyen_tap_vong_lap_2" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.Bai5NgoiSao.html">
@@ -165,7 +163,7 @@
       <workItem from="1634653273589" duration="6969000" />
       <workItem from="1634691966257" duration="17672000" />
       <workItem from="1634739236390" duration="907000" />
-      <workItem from="1634777556276" duration="2144000" />
+      <workItem from="1634777556276" duration="24152000" />
     </task>
     <servers />
   </component>
