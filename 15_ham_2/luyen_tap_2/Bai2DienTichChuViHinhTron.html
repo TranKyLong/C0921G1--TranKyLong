@@ -11,16 +11,17 @@
 <script>
 
     let nhap = prompt('mời nhập bán kính hình tròn')
+    tinhChuVi()
+    tinhDienTich()
 
+    function tinhChuVi(chuvi) {
 
-    function tinhChuVi(nhap) {
-        let chuVi = nhap * 2 * Math.PI
-        return chuVi
+        return chuvi = nhap * 2 * Math.PI
     }
 
-    function tinhDienTich() {
-        let dienTich = nhap * nhap * Math.PI
-        return dienTich
+    function tinhDienTich(dienTich) {
+
+        return dienTich = nhap * nhap * Math.PI
     }
 
     document.write('chu vi hình tròn là ' + tinhChuVi() + " <br>" + " <br>")
