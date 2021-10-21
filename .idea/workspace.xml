@@ -21,11 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="bbba1911-0ee4-427e-bbd6-7a7e6980f5b2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15_ham_2/fffffffffffff_KiemTraSoNguyenTo.html" beforeDir="false" afterPath="$PROJECT_DIR$/15_ham_2/KiemTraSoNguyenTo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15_ham_2/luyen_tap_2/Bai2DienTichChuViHinhTron.html" beforeDir="false" afterPath="$PROJECT_DIR$/15_ham_2/luyen_tap_2/Bai2DienTichChuViHinhTron.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/16_lap_trinh_huong_doi_tuong/thuc_hanh/XayDungLopHinhTron.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/17_lap_trinh_huong_doi_tuong/AdamEva.html" beforeDir="false" afterPath="$PROJECT_DIR$/17_lap_trinh_huong_doi_tuong/bai_tap/AdamEva.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9_cau_truc_dieu_kien_2/bai_tap/luyen_tap_cau_truc_dieu_kien_1/TinhCuocDienThoai.html" beforeDir="false" afterPath="$PROJECT_DIR$/9_cau_truc_dieu_kien_2/bai_tap/luyen_tap_cau_truc_dieu_kien_1/TinhCuocDienThoai.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/15_ham_2/KiemTraSoNguyenTo.html" beforeDir="false" afterPath="$PROJECT_DIR$/15_ham_2/KiemTraSoNguyenTo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/16_lap_trinh_huong_doi_tuong/thuc_hanh/MoPhongDenPin.html" beforeDir="false" afterPath="$PROJECT_DIR$/16_lap_trinh_huong_doi_tuong/thuc_hanh/MoPhongDenPin.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +165,7 @@
       <workItem from="1634653273589" duration="6969000" />
       <workItem from="1634691966257" duration="17672000" />
       <workItem from="1634739236390" duration="907000" />
-      <workItem from="1634777556276" duration="1427000" />
+      <workItem from="1634777556276" duration="2144000" />
     </task>
     <servers />
   </component>
