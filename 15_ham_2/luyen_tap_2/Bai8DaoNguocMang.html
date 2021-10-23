@@ -10,20 +10,21 @@
 
 <script>
     let mang = [10, 20, 30, 40, 50, 60, 70, 80, 90]
-    document.write('mảng cho trước là ' + mang + '<br>' + '<br>' )
+    document.write('mảng cho trước là ' + mang + '<br>' + '<br>')
+    let ketQua = daoNguoc(mang)
 
-    function daoNguoc() {
+    function daoNguoc(arr) {
 
         let begin = 0;
-        let end = mang.length - 1;
+        let end = arr.length - 1;
         while (begin < end) {
-            let b = mang[begin];
-            mang[begin] = mang[end];
-            mang[end] = b;
+            let b = arr[begin];
+            arr[begin] = arr[end];
+            arr[end] = b;
             begin++;
             end--;
         }
-        return mang
+        return arr
     }
 
     document.write('mảng sau khi đảo ngược là' + daoNguoc());

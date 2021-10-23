@@ -17,12 +17,12 @@
         '    3- Nước ép cà rốt  <br>\n' +
         '    4- Nước ép cà chua <br>\n' +
         '    5- Nước lọc <br>\n' +
-        '    6- Nước dừa <br>' + '<input type="button"  onclick="call()" id = \'goi\' value="GỌI THỨC UỐNG">')
-    // let bill = call()
-
-    let cost = 0
-    function call() {
-
+        '    6- Nước dừa <br>' +
+        '<input type="button"  onclick="call()" id = \'goi\' value="GỌI THỨC UỐNG">' +
+        '<p id = "bill"> </p>'
+        )
+unction call() {
+       let tongtien = 0
         let thucUong = ['cafe', 'Cam vắt', 'Nước ép cà rốt', 'Nước ép cà chua', 'Nước lọc', 'Nước dừa'];
         let giaTien = [15000, 12000, 10000, 18000, 5000, 20000];
         let mon;
@@ -33,18 +33,13 @@
             mon = parseInt(prompt('nhập mã số tương ứng của thức uống để gọi'));
             if (mon !== 7) {
                 soLuong = parseInt(prompt(thucUong[mon - 1] + ' có giá ' + giaTien[mon - 1] + ' nhập số lượng muốn gọi '));
-                cost += giaTien[mon - 1] * soLuong;
-                document.write(thucUong[mon - 1] + ' : ' + soLuong + ' ly ' + '<br> <br> ')
+                tongtien += giaTien[mon - 1] * soLuong;
                 alert(giaTien[mon - 1] * soLuong)
-
             }
         } while (mon !== 7)
 
-        return cost
+        document.getElementById('bill') . innerHTML = tongtien;
     }
-
-    document.write(cost)
-
 
 </script>
 </html>

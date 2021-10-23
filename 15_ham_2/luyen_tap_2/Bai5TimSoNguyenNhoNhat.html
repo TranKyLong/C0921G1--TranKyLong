@@ -16,18 +16,19 @@
         let nhap = parseInt(prompt('nhập 3 só cần so sánh'))
         list.push(nhap)
     }
+let ketQua = find (list)
 
-    function find() {
-        let max = list[0]
-        for (let j = 1; j < list.length; j++) {
-            if (list[j] > list [0]) {
-                max = list[j]
+    function find(number) {
+        let max = number[0]
+        for (let j = 1; j < number.length; j++) {
+            if (number[j] > number [0]) {
+                max = number[j]
             }
         }
         return max
     }
 
-    alert('số lớn nhất trong 3 số vừa nhập là ' + find())
+    alert('số lớn nhất trong 3 số vừa nhập là ' + ketQua)
 
 </script>
 </html>

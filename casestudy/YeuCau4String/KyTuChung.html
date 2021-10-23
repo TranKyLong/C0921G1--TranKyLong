@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+
+<script>
+
+    //     Bài 3: Cho hai xâu kí tự, tìm số lượng kí tự chung giữa chúng.
+    //         Ví dụ: s1 = "aabcc" và s2 = "adcaa", thì kết quả commonCharacterCount(s1, s2) = 3.
+    // ⇨	2 xâu s1 và s2 có 3 kí tự chung: 2 kí tự 'a' và 1 kí tự 'c'.
+
+
+    let inputString1 = prompt(' nhập chuỗi 1');
+    let string1 = inputString1.split("")
+
+    let inputString2 = prompt(' nhập chuỗi 2');
+    let string2 = inputString2.split("")
+    let same = []
+
+
+    for (let i = 0; i < string1.length; i++) {
+        for (let x = 0; x < string2.length; x++) {
+            if (string1[i] == string2[x]) {
+                same.push(string2[x]);
+                string2.splice(x, 1);
+                string1.splice(i, 1);
+            }
+        }
+    }
+
+   document.write('các ký tự chung là :' + same + ', ' + '<br>')
+   document.write('số lượng ký tự chung là :' + same.length)
+</script>
+</html>

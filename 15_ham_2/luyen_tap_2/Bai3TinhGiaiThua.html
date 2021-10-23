@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="UTF-8">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
@@ -10,17 +10,17 @@
 
 <script>
 
-    let nhap = parseInt(prompt('nhập một số nguyên dương'))
-    let tich = 1
-    let ketQua = tinh()
-    function tinh() {
+    let number = parseInt(prompt('nhập một số nguyên dương'));
+    let tich = 1;
+    let ketQua = tinh(number);
+    function tinh(nhap) {
         for (let i = 1; i <= nhap; i++) {
             tich = tich * i;
         }
         dapSo = tich
         return dapSo
     }
-    document.write('giai thừa của ' + nhap + ' là ' + ketQua)
+    document.write('giai thừa của ' + number + ' là ' + ketQua)
 
 
 </script>

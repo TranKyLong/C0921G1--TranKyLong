@@ -11,11 +11,12 @@
 
     let list = ['q', 'q', 'w', 'w', 'w', 'e', 'e', 'e', 'e', 'e', 't', 't', 't', 'y', 'y', 'y', 'u', 'u', 'i']
     let nhap = prompt('hãy nhập một ký tự')
+    let ketQua = find(nhap)
 
-    function find() {
+    function find(arr) {
         let count = 0
         for (let i = 0; i < list.length; i++) {
-            if (list[i] == nhap) {
+            if (list[i] == arr) {
                 count++
             }
         }
@@ -26,8 +27,11 @@
         }
     }
 
-    if (find() > 0) { document.write("ký tự vừa nhập có trong mảng, đã xuất hiện " + find() + ' lần ')}
-    else {document.write( -1) }
+    if (ketQua > 0) {
+        document.write("ký tự vừa nhập có trong mảng, đã xuất hiện " + ketQua + ' lần ')
+    } else {
+        document.write(-1)
+    }
 
 
 </script>

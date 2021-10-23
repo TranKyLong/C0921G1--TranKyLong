@@ -8,23 +8,22 @@
 <script>
 
 
-    function find(nhap) {
-
+    function find(name) {
 
         let sao = ['Polaris', 'Aldebaran', 'Deneb', 'Vega', 'Altair', 'Dubhe', 'Regulus']
         let chomSao = ['Ursa Minor', 'Tarurus', 'Cygnus', 'Lyra', 'Aquila', 'Ursa Major', 'Leo']
 
         for (let i = 0; i < sao.length; i++) {
-            if (sao[i] === nhap) {
-
+            if (sao[i] === name) {
                 return 'ngôi sao vừa nhập nằm ở chòm ' + chomSao[i];
             }
         }
         return "ngôi sao bạn vừa nhập không Có "
     }
+
     let input = prompt('hãy nhập ngôi sao')
-    let nhap = find(input)
-    document.write(nhap)
+    let starName = find(input)
+    document.write(starName)
 </script>
 
 </body>

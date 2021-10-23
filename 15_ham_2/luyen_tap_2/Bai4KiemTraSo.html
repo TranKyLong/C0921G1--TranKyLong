@@ -10,15 +10,15 @@
 
 <script>
 
-    let nhap = prompt(' nhập tại đây')
+    let isNumber = prompt(' nhập tại đây')
 
-    let xacDinh = test()
+    let xacDinh = test(isNumber)
 
-    function test() {
+    function test(num) {
         let noti = true
-        if (nhap / nhap === 1) {
+        if (num / num === 1) {
             return noti
-        } else if (nhap / nhap !== 1) {
+        } else if (num / num !== 1) {
             noti = false
             return noti
         }
