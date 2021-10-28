@@ -1,4 +1,0 @@
-
-Link đến github của bài thực hành tạo Reposotory của em
-
-https://github.com/TranKyLong/TaoRepository

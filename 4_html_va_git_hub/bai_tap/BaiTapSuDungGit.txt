@@ -1,5 +1,0 @@
-
-Đây là link github em đã làm theo hướng dẫn ở phần bài tập
-
-
-https://github.com/TranKyLong/GitProject
